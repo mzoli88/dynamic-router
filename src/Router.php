@@ -1,6 +1,6 @@
 <?php
 
-namespace api;
+namespace DynamicRouter;
 
 use Illuminate\Support\Facades\Route;
 use Facade\Ignition\Support\ComposerClassMap;
@@ -14,7 +14,7 @@ class Router
     // php artisan optimize
     // php artisan optimize:clear
     
-    static function doRouter(){
+    static function route(){
         if(app()->runningInConsole()){
             if(in_array('route:cache',$_SERVER['argv']) || in_array('optimize',$_SERVER['argv']) ){
                 $classmap = (new ComposerClassMap)->listClasses();
