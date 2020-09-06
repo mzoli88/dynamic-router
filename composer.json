@@ -1,0 +1,22 @@
+{
+  "name": "dynamic-router/laravel-api",
+  "type": "library",
+  "keywords": ["laravel", "REST", "api", "route", "dynamic-router"],
+  "description": "Dynamic REST api routing for laravel projects",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DynamicRouter\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "megyik88",
+      "email": "megyik88@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
