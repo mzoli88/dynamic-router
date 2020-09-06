@@ -7,6 +7,6 @@ if (!function_exists('doRoute')) {
      */
     function doRoute()
     {
-        \DynamicRouter\Router::route()
+        \DynamicRouter\Router::route();
     }
 }
