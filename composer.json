@@ -9,7 +9,10 @@
   "autoload": {
     "psr-4": {
       "DynamicRouter\\": "src/"
-    }
+    },
+    "files": [
+      "src/functions/router.php"
+    ]
   },
   "license": "MIT",
   "authors": [
